@@ -1,0 +1,29 @@
+$cream: #F7F8FA;
+$white: #ffffff;
+$blue: #003CFF;
+$dark: #1D1929;
+$grey: #ABABAB;
+$orange: #FF6F03;
+
+
+
+button {
+    font-size: 10px !important;
+    border: 1px solid  transparent;
+    color: $orange;
+    border-radius: 10px;
+    transition: .1s ease-in;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    &:hover {
+        border: 1px solid $dark;
+        color: $dark;
+    }
+    &:active {
+        border: 1px solid $grey;
+        color: $grey;
+        box-shadow:none;
+    }
+
+}
+
+

@@ -1,0 +1,25 @@
+$cream: #F7F8FA;
+$white: #ffffff;
+$blue: #003CFF;
+$dark: #1D1929;
+$grey: #ABABAB;
+$orange: #FF6F03;
+
+
+
+
+
+.active-btn {
+  padding: 5px 15px;
+  color: blue !important;
+  display: flex;
+  gap: 4px;
+  border: 1px solid $cream;
+  background-color: #fff;
+  &:hover {
+    border: 1px solid $grey;
+}
+  &:active {
+    border: 1px solid $blue;
+}
+}

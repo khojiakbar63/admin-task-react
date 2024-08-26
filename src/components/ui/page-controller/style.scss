@@ -1,0 +1,22 @@
+$cream: #F7F8FA;
+$white: #ffffff;
+$blue: #003CFF;
+$dark: #1D1929;
+$grey: #ABABAB;
+$orange: #FF6F03;
+
+
+
+.show-result-title,  .select-title{
+    color: $grey;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: .1rem;
+}
+
+#selectId {
+    border: 1px solid #E9E9EA;
+    padding: 5px 15px;
+    border-radius: 10px;
+}

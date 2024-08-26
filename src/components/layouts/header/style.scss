@@ -1,0 +1,34 @@
+$cream: #f7f8fa;
+$white: #ffffff;
+$blue: #003cff;
+$dark: #1d1929;
+$grey: #ababab;
+$orange: #ff6f03;
+
+.header {
+  position: fixed;
+  margin-left: 144px;
+  padding-left: 32px;
+  padding-top: 19px;
+  background-color: $cream;
+  height: 257px;
+  width: calc(100vw - 144px);
+  z-index: 999;
+}
+
+.main-actions-wrapper {
+  padding-right: 64px;
+  padding-top: 30px;
+}
+
+.btn {
+  color: $dark;
+  &:hover {
+    border: 1px solid $dark;
+  }
+  &:active {
+    border: 1px solid $blue;
+    background-color: $blue;
+    color: $white;
+  }
+}

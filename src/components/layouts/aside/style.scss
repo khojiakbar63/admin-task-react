@@ -1,0 +1,50 @@
+$cream: #f7f8fa;
+$white: #ffffff;
+$blue: #003cff;
+$dark: #1d1929;
+$grey: #ababab;
+$orange: #ff6f03;
+$light-blue: #e1e8ff;
+
+aside {
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: $white;
+  width: 144px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  height: 100vh;
+  z-index: 999;
+  nav {
+    padding: 20px;
+    margin-top: 172px;
+  }
+  .active{
+    color: $blue;
+    border: 1px solid $blue;
+}
+
+}
+
+.list--item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    padding: 10px;
+    transition: 0.1s ease-in;
+    color: $grey;
+
+    &:hover {
+      color: $dark;
+      border: 1px solid $dark;
+    }
+    
+    &-icon {
+      font-size: 12px;
+    }
+    &-title {
+      font-size: 10px;
+    }
+  }
