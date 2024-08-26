@@ -1,4 +1,3 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { createBrowserRouter } from "react-router-dom";
 import { Dashboard, AuthPage } from "@entrance-layout";
 import { Agen, Analytic, Category, Product, Setting, NotFound } from "@/pages";
