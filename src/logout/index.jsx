@@ -1,4 +1,4 @@
 export const logout= () => {
     localStorage.clear()
-    location.href = './login'
+    location.href = './auth-page'
 }
